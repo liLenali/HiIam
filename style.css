@@ -17,7 +17,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 80px;
 }
 
 h2 {
@@ -92,36 +92,40 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
-  
-
 }
 
-a:hover{
-  color: rgba(0, 0, 0);}
-
-.shadow-xl{
-  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
-  
+a:hover {
+  color: rgba(0, 0, 0);
 }
 
-.navbar-color{
+.shadow-xl {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-color {
   background-color: var(--primary-color);
 }
 
-
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
-    background-color: #91414c;
-    padding-left: 10px;
-    padding-right: 10px;
+  background-color: #91414c;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-    background-color: #91414c;
-  
+  background-color: #91414c;
 }
 
-.col-sm-4{
-  
+@media (max-width: 800px) {
+  h1 {
+    font-size: 18px;
+    text-align: center;
+    color: #91414c;
+  }
+
+  .footer {
+    display: none;
+  }
 }
